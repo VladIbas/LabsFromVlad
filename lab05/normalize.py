@@ -1,0 +1,6 @@
+original = input("Введите данные: ")
+normalized = " ".join(original.split())
+print(f'Исходнная длинна: {len(original)}')
+print(f'Нормализованная длинна: {len(normalized)}')
+print(normalized)
+print(len(normalized.split()))

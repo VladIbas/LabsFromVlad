@@ -1,0 +1,5 @@
+original = input()
+count = original.count(":")
+new_text = original.replace(":", "-")
+print(count)
+print(new_text)
